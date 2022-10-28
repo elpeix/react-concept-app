@@ -1,0 +1,67 @@
+/* make the customizations */
+
+@import "./App.themes.scss";
+
+$theme-colors: (
+  "gray-darker": lighten(#000, 13.5%),
+  "gray-dark": lighten(#000, 20%),
+  "gray": lighten(#000, 33.5%),
+  "gray-light": lighten(#000, 60%),
+  "gray-lighter": lighten(#000, 93.5%),
+  "primary": #5abca3,
+  "secondary": #acada977,
+  "success": #6d9e1d, // 8ac926
+  "info": #3aa3ff,
+  "danger": #d4003f,
+  "light": #ffffff88,
+  "dark": #444
+);
+
+$body-bg: #ffffffaa;
+$list-group-bg: var(--bs-light);
+$list-group-border-width: 1px;
+$list-group-border-radius: 0;
+
+body {
+  font: 1rem/1.5 var(--bs-font-sans-serif);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.logo {
+  height: 64px;
+  display: block;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.page-error {
+  margin-top: 60px;
+  color: white
+}
+
+.icon-link {
+  color: var(--body-fg);
+  cursor: pointer;
+}
+.icon-link:hover {
+  color: var(--bs-light);
+}
+
+section.content-login {
+  max-width: 340px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 3px;
+}

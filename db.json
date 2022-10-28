@@ -1,0 +1,128 @@
+{
+  "me": {
+    "id": 1,
+    "email": "francesc.requesens@concept.app",
+    "firstName": "Francesc d'Assís",
+    "lastName": "Requesens i Roca",
+    "picture": ""
+  },
+  "myGroups": [
+    {
+      "id": 1,
+      "group": {
+        "id": 1,
+        "name": "Família",
+        "members": [
+          {
+            "id": 1,
+            "groupId": 1,
+            "user": {
+              "id": 1
+            }
+          },
+          {
+            "id": 2,
+            "groupId": 1,
+            "user": {
+              "id": 3
+            }
+          },
+          {
+            "id": 3,
+            "groupId": 1,
+            "user": {
+              "id": 2
+            }
+          }
+        ],
+        "owner": {
+          "id": 1
+        }
+      }
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "user": {
+        "id": 1,
+        "email": "francesc.requesens@concept.app",
+        "firstName": "Francesc d'Assís",
+        "lastName": "Requesens",
+        "picture": ""
+      }
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "user": {
+        "id": 3,
+        "email": "bob.martin@concept.app",
+        "firstName": "Bob",
+        "lastName": "Martin",
+        "picture": ""
+      }
+    },
+    {
+      "id": 3,
+      "groupId": 1,
+      "user": {
+        "id": 2,
+        "email": "jane.gamma@concept.app",
+        "firstName": "Jane",
+        "lastName": "Gamma",
+        "picture": ""
+      }
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "name": "La llista de viatge",
+      "description": "Llista dels elements que m'enduré de viatge",
+      "group": {
+        "id": 1,
+        "name": "Família"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Una altra llista",
+      "description": "Idees per decorar la casa"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "listId": 1,
+      "name": "Una motxilla",
+      "description": "La descripció pot ser més o menys llarga, però caldrà permetre també que tingui </strong>format<strong>.",
+      "addedAt": "2022-09-24 12:34:56"
+    },
+    {
+      "id": 2,
+      "listId": 1,
+      "name": "Tenda de campanya",
+      "description": "Bsucar la que no té forats al sostre",
+      "addedAt": "2022-09-24 12:34:56"
+    },
+    {
+      "id": 3,
+      "listId": 1,
+      "name": "Llibres",
+      "description": "S'haurà de pensar en permetre una llista multilínia",
+      "addedAt": "2022-09-24 12:34:56"
+    }
+  ],
+  "users": [
+    {
+      "email": "francesc.requesens@concept.app",
+      "password": "$2a$10$11LoUKSFubY.GTcA80LYzOY5fPbEwyW0LVh2ZLslDVRdgrAYpa8Z6",
+      "id": 1,
+      "firstName": "Francesc d'Assís",
+      "lastName": "Requesens",
+      "picture": ""
+    }
+  ]
+}

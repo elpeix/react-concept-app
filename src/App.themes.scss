@@ -1,0 +1,64 @@
+
+$appThemeColorBlue: #3aa3ff;
+$appThemeColorRed: #e17272;
+$appThemeColorYellow: #e3d945;
+$appThemeColorPurple: #de98f0;
+$appThemeColorGreen: #87c46d;
+$appThemeColorOrange: #e59f2e;
+$appThemeColorGray: #b3b3b3;
+
+$primary: #5abca3;
+$secondary: #acada977;
+$success: #6d9e1d; // 8ac926
+$info: #3aa3ff;
+$danger: #d4003f;
+$light: #ffffff88;
+
+.blue-theme {
+    background-color: $appThemeColorBlue !important;
+}
+.red-theme {
+    background-color: $appThemeColorRed !important;
+}
+.yellow-theme {
+    background-color: $appThemeColorYellow !important;
+}
+.purple-theme {
+    background-color: $appThemeColorPurple !important;
+}
+.green-theme {
+    background-color: $appThemeColorGreen !important;
+}
+.orange-theme {
+    background-color: $appThemeColorOrange !important;
+}
+.gray-theme {
+    background-color: $appThemeColorGray !important;
+}
+
+.themePickers {
+	display: flex;
+}
+
+.themePickers .circle {
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	border: 2px solid #ffffffcc; 
+	outline: 2px solid #00000033;
+	opacity: .9;
+}
+
+.themePickers .circle:hover {
+	border: 2px solid #ffffffee; 
+	outline: 2px solid #00000077;
+	opacity: 1;
+}
+
+.themePickers .circle.active {
+	border: 2px solid #ffffffee; 
+	outline: 2px solid #000000aa;
+	opacity: 1;
+}

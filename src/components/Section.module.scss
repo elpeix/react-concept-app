@@ -1,0 +1,32 @@
+section.content {
+	box-sizing: border-box;
+}
+
+section.simpleContent {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin-bottom: 30px;
+}
+
+section.content header {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px 15px 5px;
+	border-radius: 3px 3px 0 0;
+}
+
+section.content div.body {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0px;
+}
+
+section.content div.body.breath {
+	padding: 15px;
+}
+
+section.content footer {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px 15px;
+	border-radius: 0 0 3px 3px;
+	margin-bottom: 20px;
+}
